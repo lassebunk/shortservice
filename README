@@ -5,6 +5,10 @@ The ShortService gem is a layer for talking to the ShortService API (http://shor
 $ sudo gem install shortservice
 
 == Using ShortService
+Require ShortService:
+  require 'rubygems'
+  require 'shortservice'
+
 In your Ruby code, to shorten a URL:
   ShortService::Service.find_by_key("bitly").shorten("http://github.com")
 
