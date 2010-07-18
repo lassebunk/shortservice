@@ -9,4 +9,4 @@ In your Ruby code, to shorten a URL:
   ShortService::Service.find_by_key("bitly").shorten("http://github.com")
 
 To get a list of all services:
-  ShortService::Service.all.each { |s| puts service.key + ": " + service.name}
+  ShortService::Service.all.each { |s| puts s.key + ": " + s.name}
