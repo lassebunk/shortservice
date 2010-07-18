@@ -1,0 +1,12 @@
+== About ShortService
+The ShortService gem is a layer for talking to the ShortService API (http://shortservice.lassebunk.dk), which makes it easy to shorten URLs with any service.
+
+== Installing ShortService
+$ sudo gem install shortservice
+
+== Using ShortService
+In your Ruby code, to shorten a URL:
+  ShortService::Service.find_by_key("bitly").shorten("http://github.com")
+
+To get a list of all services:
+  ShortService::Service.all.each { |s| puts service.key + ": " + service.name}
