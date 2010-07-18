@@ -1,5 +1,5 @@
 == About ShortService
-The ShortService gem is a layer for talking to the ShortService API (http://shortservice.lassebunk.dk), which makes it easy to shorten URLs with any service.
+The ShortService gem is a layer for talking to the ShortService API (http://shortservice.lassebunk.dk/api), which makes it easy to shorten URLs with any service.
 
 == Installing ShortService
 $ sudo gem install shortservice
